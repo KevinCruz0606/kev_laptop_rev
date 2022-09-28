@@ -1,0 +1,91 @@
+What is the <portType> tag used for in the WSDL?
+Describes what operations can be performed and what messages are involved at an endpoint
+
+What parts of a SOAP message are required?
+Envelope, header, body
+
+Why are Web Services needed?
+They provide interoperability between platforms and promote code reusability
+
+What are benefits of SOAP over REST?
+SOAP services are accomplished by a clearly outlined service and are not bound to a specific protocol
+
+What are Web Services?
+Software that makes itself available over the internet and uses a standardized messaging system and runs on a local platform but mimics a Web Browser interface
+
+Service-Oriented Architecture (SOA) is
+Black Box services hat orchestrate into an entire ecosystem. Web services are the preferred technical approach to achieve SOA. Services should be loosely coupled by hiding the service implementation.
+
+How are exceptions handled in SOAP?
+SOAP Fault us sent in SOAP message when exception is thrown, and includes fault code, reason, etc.
+
+What does WSDL mean?
+Web Service Definition Language
+
+What is a WSDL?
+Used to specify the exact messaeg format, internet protocol, and address that a client must use to communicate with a particular Web Service
+
+What is WSDL used for?
+Used to create the XML document that describes the tasks performed by the various web services
+
+Does SOAP support JSON to structure and send messages?
+No, SOAP supports only XML
+
+Can SOAP transport messages over HTTP, SMTP, and FTP, while REST can do the same?
+No, SOAP only uses XML
+
+SOAP messages contain (XML); and REST messages contain (XML, text, or JSON)
+
+In what protocol are SOAP messages bound?
+HTTP, HTTPS, BEEP, SMXP. They are bound based on the WSDL contract
+
+Whaat transport protocol is used in REST?
+HTTP
+
+What language is used to represent a resource?
+Plain text, XML, and JSON
+
+What is a resource in REST?
+Any content accessible through the Web Service
+
+Which of these is not a commonly used HTTP method in REST?
+GET, PUT, POST, DELETE, (TRACE), OPTIONS
+
+Which is not one of the core components of an HTTP request?
+HTTP Method, Uniform Resource Identifier, (Status Code), Request Body
+
+Which is not of the core components of an HTTP Response?
+Response header, Response body, HTTP version, (Uniform Resource Identifier)
+
+How are exceptions handled in REST?
+A web service should use HTTP error like 403 to show access forbidden using the Response object.
+
+The purpose of a (Uniform Resource Identifier) is to locate a resource on the server hosting the REST web service?
+
+Which character indicates the beginning of a query param in a URL?
+"?" is used
+
+What are the different categories of web services?
+SOAP and REST
+
+Which annotation exposes methods via the WCF service?
+OperationContract
+
+Web API functionality is associated with which implementation?
+HTTP verbs
+
+Does Web API expose functionality via a WSDL contract?
+No, Functionality is exposed through HTTP verbs
+
+Does HTTP use a connected architecture?
+No
+
+Is HTTP stateless?
+Yes; HTTP is called as a stateless protocol because each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost
+
+What do you use in order to send information or other data alongs with the request that is needed by the server?
+Request Headers
+
+Which request header is used when you send values from a form so that the server knows what type of data to expect with the request?
+Content-type Header
+

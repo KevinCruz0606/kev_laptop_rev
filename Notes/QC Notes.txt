@@ -1,0 +1,117 @@
+DOM - Document Object Model
+DOM Manipulation
+
+What does a URI do?
+When you do fetch, and there's a URL, that whole thing is a URI (domain, http, query, query parameters). Has to match a path from the server.
+
+Authorization vs authentication
+authorization is permissions you have
+authentication is verifying you are who you are
+
+
+Components of HTTP Request:
+	HTTP Method
+	URI
+	Request Body
+Components of HTTP Response:
+	Response Header
+	Response body
+	HTTP Version
+
+What is HATEOAS?
+	has something to do with REST
+	Concept: Information about the API
+			You can navigate the API with this information
+	All the info you'd wanna know in an API, like what methods can i use
+	Documentation of the API in code
+
+Difference between SOAP and REST
+SOAP is incompatible with, compatible with XML
+REST plain text, XML, and JSON
+
+WSDL?
+Web Service Definition Language
+
+Element vs Attribute
+Attribute can be changed with CSS, while element can't
+
+CSS Selectors?
+Describe what you're looking to change
+	*
+	p{}
+	#id
+	.class
+	
+Class vs ID?
+Class can be used for multiple elements, where ID is for one. They're both attributes
+
+Different tags can be styled in the same grouping
+
+how to select a child element
+	use the greater than (>)symbol
+
+what are media queries?
+	use to make website more responsive, 
+	set to 980 means that it will only display that way up to, but not over that 	resolution
+	Main concept is to have the website fit any size screen for a cleaner interface
+
+What makes up an HTML document?
+Head, Body, and HTML tag
+
+What are meta tags for, and where do they go?
+Used to describe the language or style of the page
+set it to UTF-8, ASCII, SCO
+giving search engines something to look for
+make viewport responsive with viewport attribute in the meta tag
+used to describe metadata in the page
+
+What is semantic UI and why is it important?
+Using the appropriate tag for the right purpose
+You should use the <button> tag for a button, not other tags
+
+3 main CSS types?
+inline, internal, external, (embedded)
+
+Center a div?
+margin:auto
+
+What is a self-closing tag?
+Image, br
+
+Javascript
+
+Native data types?
+undefined, number, null, string, boolean
+
+null is empty, undefined is referring to a nonexistent thing, undeclared is an empty variable
+
+Javascript has dynamic types, what is coersion?
+Makes up what it is. let number = 4 (dynamic)
+When you force something to be something else, weakly typed language
+Const cant be coersed to a new data
+coersion means i can change it data type without saying it
+
+What type of language is Javascript?
+Functional language, c# is object oriented
+Doesn't rely on class structure, programs are made based on functions, not objects
+
+Generally, you wouldn't make classes in javascript
+
+Namespaces are a thing in JS, what are the differences between a function declaration, expression?
+Expression would be an anonymous function with no name attached to it.
+Set expression to a variable
+Declaration: function, name, parameter
+
+A function declaration is loaded first, then the function expression
+
+How can styles or classes be changed using Javascript?
+Document.getElementById() (DOM Manipulation)
+
+Prototypes and prototypal inheritance
+What is a prototype?
+A prototype is the construction of an object that shares attributes and methods with other objects
+
+'this' can be used in classes and objects.
+
+Fetch is an asynchronous, returns a promise from the request is sent
+Fetch is URL, method, Header, Verb, Body. fetch returns promise, where response is handled. (then(response))

@@ -1,0 +1,97 @@
+--Angular--
+
+CLI commands to generate components and services
+ng (g)enerate (c)omponent name 
+ng (g)enerate (s)ervice name
+
+When you start the angular application, what is the entry point of it, and where does it start?
+Bootstrap
+
+What is a template?
+HTML files which render the component. Each component must have its own template
+
+How to inject a template into a view?
+You normally do this with routing. Depending on a route, the router will inject the template associated with a specific component
+
+Is it mamndatory to export every component?
+Yes, or else you can't use it
+
+What is Angular?
+A front end framework made with TypeScript consisting of Components(dynamic views), single paged applications with routing modules(different sections/layers), and services for HTTP Manipulation DOM (Document Object Model) with Databinding
+
+What is a decorator?
+Similar to Annotations in Java, these are used to hold Angular metadata. They can be attached to classes, meethods, and properties to povide additional behavior at runtime.
+@NgModule: used for dependencies and declarations
+@Input
+@Injectable
+@Pipe
+
+What is a Module?
+A layer of your application used to make the application more modular. It serves as a collection of services, directives, controllers, filters, and configurations. These are defined with the @NgModule decorator, and the metadata tell Angular how to run the application. It can be used for Routing, HTTP, and Forms.
+
+How do I create a module?
+ng generate module modName
+
+How do I include a Module into my application?
+Import and put in app declarations
+
+What is a component?
+Object that controls a view and consists of templates, which are mandatory. Use @Components on the top of the class
+Contains:
+	Selector - Defines the HTML tag (component directive)
+	Template URL - loction of the template
+	stylesURL: []
+
+How do I create a component, and what does it receive?
+ng (g)enerate (c)omponent componentName:
+The life cycle is as follows:
+	Create
+	Render
+	Create + Render Children
+	Databound properties change
+	Destroy
+
+What is a Directive? Which are the types?
+Directives: used to manipulate the DOM
+Types:
+	Structural - Used to add or remove DOM elements
+	ngFor, *ngIf, ngSwitch
+Attribute:
+	Modifies attributes of DOM element
+	ngStyles, ngClass, component as well
+
+What is Routing?
+Used to implement single-paged applications, allowing you tonavigate through different components dynamically through injected views
+
+How do I inject an object into another object?
+Make the component injectable with @Injectable
+
+What is Data Binding
+The automatic synchronization of data between the omdel and view components
+
+What is a Pipe?
+Let you declare display-value transformations in your template URL
+
+What is Observable?
+Provides support for passing messages between publishers and subscribers in your application
+
+Publisher vs. Subscriber
+Publisher: Creates an observable interface that defines a subscriber function
+Subscriber: Defines how to obtain or generate values or message to be published
+
+Angular vs AngularJS
+Language: (A)TypeScripts, (AJS)JavaScript
+Controllers: (AJS) Uses Controllers, (A) Replaced with Components
+Life Cycles: (A) Components have their own lifecycle. (AJS) No-lifeCycle
+Databinding: (A)Interpolation, Event, Property and 2-Way. (AJS) Interpolation and Data-Binding
+Directives: (A) Camel case, fewer directives. (AJS)Hyphen, for every event you had a directive.
+MVC: (A)Has no specific design pattern. (AJS) Follows the MVC architecture strictly
+
+What is TypeScript?
+Programming language that transpiles into Java EcmaScript 2. It contains access modifiers, classes, interfaces, Unit testing through Jasmine, and Decorators
+
+Access Modifiers in TypeScript?
+Public(default); protected, private
+
+TypeScript data types?
+Boolean, Number, String, Array, Tuple, Enum, Any, Void, Null, Undefined, Never
